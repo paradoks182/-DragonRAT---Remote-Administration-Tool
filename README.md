@@ -89,50 +89,5 @@ pyinstaller --onefile --noconsole --name DragonRat DragonRat.py
 
 #без консоли с иконкой
 pyinstaller --onefile --noconsole --icon=dragon.ico --name DragonRAT DragonRat.py
-Telegram Bot Token (получить у @BotFather)
 
-📚 Список команд
-Основные команды
-Команда	Описание	Пример
-/start	Начальное приветствие	/start
-/help	Справка	/help
-/info	Информация о системе	/info
-/status	Статус RAT	/status
-Файловые операции
-Команда	Описание	Пример
-/ls	Список файлов	/ls C:\Windows
-/cd	Сменить директорию	/cd ..
-/pwd	Текущая директория	/pwd
-/download	Скачать файл	/download file.txt
-/delete	Удалить файл/папку	/delete file.txt
-/mkdir	Создать папку	/mkdir new_folder
-/rmdir	Удалить папку	/rmdir folder
-Системные операции
-Команда	Описание	Пример
-/exec	Выполнить команду	/exec dir
-/ps	Список процессов	/ps
-/kill	Завершить процесс	/kill 1234
-/screenshot	Сделать скриншот	/screenshot
-/webcam	Снимок с камеры	/webcam
-/keylog_start	Запустить кейлоггер	/keylog_start
-/keylog_stop	Остановить кейлоггер	/keylog_stop
-/keylog_dump	Получить логи	/keylog_dump
-Сбор данных
-Команда	Описание	Пример
-/passwords	Пароли браузеров	/passwords
-/browser	История браузера	/browser
-/wifi	Wi-Fi пароли	/wifi
-/clipboard	Буфер обмена	/clipboard
-/env	Переменные окружения	/env
-Сеть
-Команда	Описание	Пример
-/portscan	Сканирование портов	/portscan 192.168.1.1 1-1000
-/network	Сетевая информация	/network
-/geoip	Геолокация по IP	/geoip 8.8.8.8
-Управление
-Команда	Описание	Пример
-/persist	Установить персистентность	/persist
-/update	Обновить RAT	/update
-/restart	Перезапустить RAT	/restart
-/uninstall	Удалить RAT	/uninstall
-/exit	Завершить сессию	/exit
+
